@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/spacing_medium">
+
+    <!-- Imagen del cuchillo -->
+    <ImageView
+        android:id="@+id/ivImagenCuchillo"
+        android:layout_width="@dimen/item_image_size"
+        android:layout_height="@dimen/item_image_size"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Nombre -->
+    <TextView
+        android:id="@+id/tvNombreCuchillo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_cuchillo_placeholder"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_title"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/spacing_medium"
+        app:layout_constraintStart_toEndOf="@id/ivImagenCuchillo"
+        app:layout_constraintTop_toTopOf="@id/ivImagenCuchillo"
+        app:layout_constraintEnd_toStartOf="@id/ivStar" />
+
+    <!-- Descripción corta -->
+    <TextView
+        android:id="@+id/tvDescripcionCuchillo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion_cuchillo_placeholder"
+        android:textSize="@dimen/text_body"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/spacing_small"
+        app:layout_constraintStart_toStartOf="@id/tvNombreCuchillo"
+        app:layout_constraintTop_toBottomOf="@id/tvNombreCuchillo"
+        app:layout_constraintEnd_toStartOf="@id/ivStar" />
+
+    <!-- ⭐ Estrella de favoritos -->
+    <ImageView
+        android:id="@+id/ivStar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:padding="4dp"
+        android:src="@drawable/estrella_vacia"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
