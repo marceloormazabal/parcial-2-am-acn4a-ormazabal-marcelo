@@ -1,0 +1,13 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores de la app -->
+    <color name="backgroundApp">#FFF6FAFF</color>
+    <color name="backgroundSoft">#FFFFFFFF</color>
+
+    <color name="textPrimary">#333333</color>
+    <color name="textWhite">#FFFFFF</color>
+
+    <color name="colorPrimary">#6A5ACD</color>
+</resources>

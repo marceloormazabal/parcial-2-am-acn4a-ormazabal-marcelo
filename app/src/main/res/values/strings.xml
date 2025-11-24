@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Nombre de la app -->
+    <string name="app_name">KnifeHub</string>
+
+    <!-- Pantalla principal -->
+    <string name="app_logo">Logo de KnifeHub</string>
+    <string name="entrar_a_knifehub">Entrar a KnifeHub</string>
+
+    <!-- Lista de cuchillos -->
+    <string name="titulo_listado_cuchillos">Listado de Cuchillos</string>
+    <string name="listado_cuchillos">Listado de Cuchillos</string>
+
+    <!-- Placeholders de los ítems -->
+    <string name="nombre_cuchillo_placeholder">Nombre del cuchillo</string>
+    <string name="descripcion_cuchillo_placeholder">Descripción corta del cuchillo</string>
+
+    <!-- Detalle -->
+    <string name="detalle_nombre">Nombre del cuchillo</string>
+    <string name="detalle_descripcion">Descripción del cuchillo</string>
+
+    <!-- Favoritos -->
+    <string name="titulo_favoritos">Cuchillos Favoritos</string>
+
+</resources>
+
