@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "669685929656",
+    "project_id": "knifehub-am",
+    "storage_bucket": "knifehub-am.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669685929656:android:901835df323a3f41ea864d",
+        "android_client_info": {
+          "package_name": "com.example.knifehub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwvN9TzSy7NDNyVtfl42fySLb029z-ZOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

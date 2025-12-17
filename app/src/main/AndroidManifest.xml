@@ -11,24 +11,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KnifeHub">
+
+        <!-- LOGIN: pantalla inicial -->
         <activity
-            android:name=".FavoritosActivity"
-            android:exported="false" />
-        <activity
-            android:name=".KnifeDetailActivity"
-            android:exported="false" />
-        <activity
-            android:name=".KnifeListActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Pantalla principal -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".KnifeListActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".KnifeDetailActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".FavoritosActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
