@@ -2,12 +2,17 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- Colores de la app -->
-    <color name="backgroundApp">#FFF6FAFF</color>
-    <color name="backgroundSoft">#FFFFFFFF</color>
+    <!-- Colores de la app - Modern Palette -->
+    <color name="colorPrimary">#6A5ACD</color> <!-- SlateBlue original -->
+    <color name="colorPrimaryVariant">#483D8B</color> <!-- DarkSlateBlue -->
+    <color name="colorSecondary">#03DAC5</color> <!-- Teal -->
+    <color name="colorSecondaryVariant">#018786</color>
+    
+    <color name="backgroundApp">#F2F5FA</color> <!-- Un gris/azul muy claro y limpio -->
+    <color name="backgroundSoft">#FFFFFF</color>
 
-    <color name="textPrimary">#333333</color>
+    <color name="textPrimary">#1F1F1F</color>
+    <color name="textSecondary">#757575</color>
     <color name="textWhite">#FFFFFF</color>
-
-    <color name="colorPrimary">#6A5ACD</color>
+    <color name="textHint">#A0A0A0</color>
 </resources>

@@ -1,8 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.KnifeHub" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Colores primarios -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/textWhite</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimaryContainer">@color/textWhite</item>
+
+        <!-- Colores secundarios -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/textPrimary</item>
+        <item name="colorSecondaryContainer">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondaryContainer">@color/textWhite</item>
+
+        <!-- Fondos y Superficies -->
+        <item name="android:colorBackground">@color/backgroundApp</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/textPrimary</item>
     </style>
 
     <style name="Theme.KnifeHub" parent="Base.Theme.KnifeHub" />

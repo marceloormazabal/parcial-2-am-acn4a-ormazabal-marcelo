@@ -5,7 +5,18 @@
 
     <!-- Pantalla principal -->
     <string name="app_logo">Logo de KnifeHub</string>
-    <string name="entrar_a_knifehub">Entrar a KnifeHub</string>
+    <string name="welcome_title">Bienvenido a KnifeHub</string>
+    <string name="welcome_subtitle">Gestiona tu colección profesionalmente</string>
+    <string name="entrar_a_knifehub">Explorar Catálogo</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+
+    <!-- Login -->
+    <string name="login_title">KnifeHub</string>
+    <string name="login_subtitle">Tu colección, siempre afilada.</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="register_prompt">¿No tienes cuenta? Regístrate</string>
 
     <!-- Lista de cuchillos -->
     <string name="titulo_listado_cuchillos">Listado de Cuchillos</string>
@@ -23,4 +34,3 @@
     <string name="titulo_favoritos">Cuchillos Favoritos</string>
 
 </resources>
-
