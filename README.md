@@ -1,78 +1,120 @@
-KnifeHub -- Catálogo de Cuchillos con Favoritos
+KnifeHub — Catálogo de Cuchillos con Autenticación y Favoritos
 
-Aplicación móvil desarrollada para el **Parcial 2 -- Aplicaciones
-Móviles**\
+Aplicación móvil desarrollada para el FINAL — Aplicaciones Móviles
 Instituto Da Vinci · Profesor: Sergio Medina
 
-Descripción
+📱 Descripción
 
-**KnifeHub** es una app Android nativa desarrollada en **Java**, que
-muestra un catálogo de cuchillos con imágenes reales, detalle completo y
-un sistema de favoritos **persistente** con SharedPreferences.
+KnifeHub es una aplicación Android nativa desarrollada en Java, que permite a los usuarios autenticarse mediante Firebase Authentication y acceder a un catálogo de cuchillos con imágenes reales, vista de detalle y un sistema de favoritos persistente.
 
-El usuario puede: - Visualizar una lista dinámica de cuchillos
-(RecyclerView) - Ver detalles completos del producto - Agregar o quitar
-favoritos - Navegar entre pantallas usando Intents - Guardar datos en
-almacenamiento local
+La aplicación está pensada como un proyecto integral que combina autenticación, navegación entre pantallas, listas dinámicas y persistencia de datos locales, cumpliendo con los contenidos vistos durante la cursada.
 
-Tecnologías utilizadas
+👤 Funcionalidades del usuario
 
--   Java
--   Android Studio
--   RecyclerView
--   ConstraintLayout / LinearLayout
--   SharedPreferences
--   Intents y Bundles
--   XML Layouts
--   Git + GitHub
+El usuario puede:
+
+Registrarse e iniciar sesión mediante email y contraseña (Firebase Auth)
+
+Cerrar sesión de forma segura
+
+Visualizar un listado dinámico de cuchillos (RecyclerView)
+
+Acceder al detalle completo de cada cuchillo
+
+Agregar o quitar cuchillos de favoritos
+
+Visualizar una pantalla exclusiva de favoritos
+
+Mantener los favoritos guardados incluso al cerrar la aplicación
+
+Navegar entre pantallas utilizando Intents
+
+🛠️ Tecnologías utilizadas
+
+Java
+
+Android Studio
+
+Firebase Authentication
+
+RecyclerView
+
+ConstraintLayout / LinearLayout
+
+SharedPreferences
+
+Intents y Bundles
+
+XML Layouts
+
+Git + GitHub
 
 Estructura principal del proyecto
 
-    app/
-     ├─ java/
-     │   ├─ Knife.java
-     │   ├─ KnifeData.java
-     │   ├─ KnifeAdapter.java
-     │   ├─ KnifeListActivity.java
-     │   ├─ KnifeDetailActivity.java
-     │   ├─ FavoritosActivity.java
-     │
-     ├─ res/
-     │   ├─ layout/
-     │   │   ├─ activity_main.xml
-     │   │   ├─ activity_knife_list.xml
-     │   │   ├─ activity_knife_detail.xml
-     │   │   ├─ activity_favoritos.xml
-     │   │   ├─ item_cuchillo.xml
-     │   ├─ drawable/ (imágenes)
-     │   ├─ values/ (colors, strings, themes)
-     │
-     ├─ AndroidManifest.xml
+   app/
+ ├─ java/
+ │   ├─ Knife.java
+ │   ├─ KnifeData.java
+ │   ├─ KnifeAdapter.java
+ │   ├─ KnifeListActivity.java
+ │   ├─ KnifeDetailActivity.java
+ │   ├─ FavoritosActivity.java
+ │   ├─ LoginActivity.java
+ │   ├─ MainActivity.java
+ │
+ ├─ res/
+ │   ├─ layout/
+ │   │   ├─ activity_login.xml
+ │   │   ├─ activity_main.xml
+ │   │   ├─ activity_knife_list.xml
+ │   │   ├─ activity_knife_detail.xml
+ │   │   ├─ activity_favoritos.xml
+ │   │   ├─ item_cuchillo.xml
+ │   ├─ drawable/ (imágenes y shapes)
+ │   ├─ values/ (colors, strings, themes)
+ │
+ ├─ AndroidManifest.xml
+
 
 ⭐ Funcionalidades principales
 
--   Lista dinámica (RecyclerView)\
--   Pantalla de detalle con datos completos\
--   Botón para agregar/quitar favoritos\
--   Favoritos persistentes con SharedPreferences\
--   Navegación entre pantallas con Intents\
--   Recursos organizados (strings, colors, themes)\
--   Diseño limpio y funcional
+Autenticación de usuarios con Firebase Auth
 
-Testing
+Lista dinámica de productos mediante RecyclerView
 
--   La app mantiene los favoritos incluso al cerrar\
--   La navegación entre pantallas es correcta\
--   Todas las imágenes cargan sin errores\
--   Las listas funcionan dinámicamente
+Pantalla de detalle con información completa
 
-Integrantes
+Sistema de favoritos con persistencia local
 
--   Ormazabal Marcelo // DNI 29356069
+Navegación entre actividades usando Intents
+
+Gestión de sesión (login / logout)
+
+Recursos organizados y reutilizables
+
+Diseño claro, simple y funcional
+
+🧪 Testing y validaciones
+
+La autenticación funciona correctamente (login / registro / logout)
+
+La sesión se mantiene activa hasta cerrar sesión
+
+Los favoritos se conservan al cerrar la app
+
+La navegación entre pantallas es correcta
+
+Las listas se cargan dinámicamente sin errores
+
+Las imágenes se visualizan correctamente
+
+👤 Integrante
+
+Ormazabal Marcelo
+DNI: 29.356.069
 
 Repositorio
-
-https://github.com/marceloormazabal/parcial-2-am-acn4a-ormazabal-marcelo.git
+https://github.com/marceloormazabal/finalam-acn4a-ormazabal-marcelo.git
 
 Permisos
 
