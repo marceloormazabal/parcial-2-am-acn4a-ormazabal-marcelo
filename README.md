@@ -114,7 +114,7 @@ Ormazabal Marcelo
 DNI: 29.356.069
 
 Repositorio
-https://github.com/marceloormazabal/finalam-acn4a-ormazabal-marcelo.git
+https://github.com/marceloormazabal/final-am-acn4a-ormazabal-marcelo.git
 
 Permisos
 
